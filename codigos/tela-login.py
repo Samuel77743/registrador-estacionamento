@@ -36,7 +36,7 @@ def login():
             and (valores['senha'] == '19062012'))\
             or ((valores['usuario'] == 'CONVIDADO') and (valores['senha'] == '12345678')):
                 janela['msg'].update('Login realizado com sucesso!')
-                os.startfile('.\executaveis\Registrador Stop Car.exe')
+                os.startfile('.\Registrador Stop Car.exe')
                 break
 
             elif (valores['usuario'] == ('')) or (valores['senha'] == ('')):
